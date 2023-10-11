@@ -1,13 +1,153 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My Simple Website 4</title>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Project/Organization Image Gallery</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+
+
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My Simple Website 4</h1>
-    <p>This is the fourth simple HTML website for Hacktoberfest.</p>
-    <footer>
-        &copy; 2023 My Simple Website 4
-    </footer>
+    <nav class="navbar">
+        <span class="logo">Project Image Gallery</span>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul class="navbar-list">
+            <li class="navbar-list-item">Home</li>
+            <li class="navbar-list-item">About</li>
+            <li class="navbar-list-item">Contact</li>
+            <li class="navbar-list-item"><a href="#contributors">Contributors</a></li>
+        </ul>
+    </nav>
+    <div class="container-2" id="contributors">
+        <div class="main-logo" id="contri">
+            Contributors for <span class="hack">Hacktoberfest 2023</span>
+        </div>
+        <hr>
+<h1>Project/Organization Image Gallery</h1>
+
+<div class="gallery">
+  <img src="Images/1.jpg" alt="Image 1">
+  <img src="Images/2.jpg" alt="Image 2">
+  <img src="Images/3.jpg" alt="Image 3">
+  <img src="Images/5.jpg" alt="Image 4">
+  <img src="Images/6.jpg" alt="Image 5">
+  <img src="Images/7.jpg" alt="Image 6">
+  <img src="Images/8.jpg" alt="Image 7">
+  <img src="Images/9.jpg" alt="Image 8">
+  <img src="Images/10.jpg" alt="Image 9">
+  <img src="Images/11.jpg" alt="Image 10">
+  <img src="Images/12.jpg" alt="Image 11">
+  <img src="Images/13.jpg" alt="Image 12">
+  <img src="Images/14.jpg" alt="Image 13">
+  <img src="Images/15.jpg" alt="Image 14">
+  <img src="Images/16.jpg" alt="Image 15">
+  <img src="Images/17.jpg" alt="Image 16">
+  <img src="Images/18.jpg" alt="Image 17">
+  <img src="Images/19.jpg" alt="Image 18">
+  <img src="Images/20.jpg" alt="Image 19">
+  <img src="Images/21.jpg" alt="Image 20">
+
+  <!-- Add more image tags for additional images -->
+</div>
+<!-- <footer>
+    &copy; 2023 My Simple Website 4
+</footer> -->
+<br>
+
+<footer>
+<div class="additional">
+    <div id="title">Repository Maintainer</div>
+    <div class="f-ele1">
+        <div id="name">Abhilash Shah</div>
+    </div>
+
+    <br>
+    <div id="clg">Rungta college of Engineering and technology,Bhilai</div>
+    <div id="pp">©2023 My First Hactoberfest</div>
+
+</div>
+<div class="f-ele2">
+
+    <ul>
+        <span>Quick Links</span>
+        <div></div>
+        <a href="">
+            <li>Home</li>
+        </a>
+        <a href="">
+            <li>About</li>
+        </a>
+        <a href="">
+            <li>Contact</li>
+        </a>
+        <a href="">
+            <li>Contributor</li>
+        </a>
+    </ul>
+</div>
+
+<div class="f-ele3">
+    <ul>
+        <span>Contact me</span><br>
+        <br>
+    </ul>
+
+    <section id="lab_social_icon_footer" style="padding-top: 1px;">
+        <!-- Include Font Awesome Stylesheet in Header -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <div class="container">
+            <div class="text-center center-block ">
+                <div class="social-media">
+                    <div class="media1">
+                        <a href="https://www.linkedin.com/in/abhilash-shah/" target="_blank"><img
+                                src="assets/pngwing.com (25).png" height="40px" width="40px"></a>
+                    </div>
+                    <div class="media1">
+                        <a href="https://www.instagram.com/abhilash-shah" target="_blank"><img
+                                src="assets/instagram (8).png" height="33px" width="33px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</footer>
+
 </body>
 </html>
